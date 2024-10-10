@@ -11,43 +11,7 @@
 	(object Attribute
 	    tool       	"Java"
 	    name       	"IDE"
-	    value      	"Internal Editor")
-	(object Attribute
-	    tool       	"Java"
-	    name       	"UserDefineTagName1"
-	    value      	"")
-	(object Attribute
-	    tool       	"Java"
-	    name       	"UserDefineTagText1"
-	    value      	"")
-	(object Attribute
-	    tool       	"Java"
-	    name       	"UserDefineTagApply1"
-	    value      	"")
-	(object Attribute
-	    tool       	"Java"
-	    name       	"UserDefineTagName2"
-	    value      	"")
-	(object Attribute
-	    tool       	"Java"
-	    name       	"UserDefineTagText2"
-	    value      	"")
-	(object Attribute
-	    tool       	"Java"
-	    name       	"UserDefineTagApply2"
-	    value      	"")
-	(object Attribute
-	    tool       	"Java"
-	    name       	"UserDefineTagName3"
-	    value      	"")
-	(object Attribute
-	    tool       	"Java"
-	    name       	"UserDefineTagText3"
-	    value      	"")
-	(object Attribute
-	    tool       	"Java"
-	    name       	"UserDefineTagApply3"
-	    value      	""))
+	    value      	"Internal Editor"))
     quid       	"5D9DEB540347"
     enforceClosureAutoLoad 	FALSE
     defaults   	(object defaults
@@ -307,31 +271,7 @@
 				fill_color 	13434879
 				quidu      	"670692F900FD"
 				height     	118)
-			    (object UseCaseView "Use Case View::HeThong::Dang nhap" @4
-				location   	(747, 168)
-				font       	(object Font
-				    size       	10
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@4
-				    location   	(747, 306)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	630
-				    justify    	0
-				    label      	"Dang nhap")
-				icon_style 	"Icon"
-				line_color 	3342489
-				fill_color 	13434879
-				quidu      	"67069334033E"
-				height     	118)
-			    (object ClassView "Class" "Use Case View::HeThong::Khach hang" @5
+			    (object ClassView "Class" "Use Case View::HeThong::Khach hang" @4
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
@@ -346,11 +286,11 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@5
+				    Parent_View 	@4
 				    location   	(217, 741)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	325
+				    max_width  	343
 				    justify    	0
 				    label      	"Khach hang")
 				icon       	"Actor"
@@ -359,7 +299,7 @@
 				quidu      	"6706928F0389"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$0" @6
+			    (object AssociationViewNew "$UNNAMED$0" @5
 				location   	(460, 498)
 				font       	(object Font
 				    size       	10
@@ -374,31 +314,31 @@
 				line_color 	3342489
 				quidu      	"6706930F012B"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$1" @7
-					Parent_View 	@6
+				    (object RoleView "$UNNAMED$1" @6
+					Parent_View 	@5
 					location   	(199, 1)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"6706930F035D"
-					client     	@6
+					client     	@5
 					supplier   	@1
 					vertices   	(list Points
 					    (460, 498)
 					    (646, 439))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$2" @8
-					Parent_View 	@6
+				    (object RoleView "$UNNAMED$2" @7
+					Parent_View 	@5
 					location   	(199, 1)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"6706930F035F"
-					client     	@6
-					supplier   	@5
+					client     	@5
+					supplier   	@4
 					vertices   	(list Points
 					    (460, 498)
 					    (274, 558))
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$3" @9
+			    (object AssociationViewNew "$UNNAMED$3" @8
 				location   	(461, 640)
 				font       	(object Font
 				    size       	10
@@ -413,31 +353,31 @@
 				line_color 	3342489
 				quidu      	"670693120034"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$4" @10
-					Parent_View 	@9
+				    (object RoleView "$UNNAMED$4" @9
+					Parent_View 	@8
 					location   	(200, 143)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"6706931203DB"
-					client     	@9
+					client     	@8
 					supplier   	@2
 					vertices   	(list Points
 					    (461, 640)
 					    (649, 688))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$5" @11
-					Parent_View 	@9
+				    (object RoleView "$UNNAMED$5" @10
+					Parent_View 	@8
 					location   	(200, 143)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"6706931203DD"
-					client     	@9
-					supplier   	@5
+					client     	@8
+					supplier   	@4
 					vertices   	(list Points
 					    (461, 640)
 					    (274, 593))
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$6" @12
+			    (object AssociationViewNew "$UNNAMED$6" @11
 				location   	(478, 754)
 				font       	(object Font
 				    size       	10
@@ -452,30 +392,54 @@
 				line_color 	3342489
 				quidu      	"6706931501E5"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$7" @13
-					Parent_View 	@12
+				    (object RoleView "$UNNAMED$7" @12
+					Parent_View 	@11
 					location   	(217, 257)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"67069316018C"
-					client     	@12
+					client     	@11
 					supplier   	@3
 					vertices   	(list Points
 					    (478, 754)
 					    (682, 891))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$8" @14
-					Parent_View 	@12
+				    (object RoleView "$UNNAMED$8" @13
+					Parent_View 	@11
 					location   	(217, 257)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"67069316018E"
-					client     	@12
-					supplier   	@5
+					client     	@11
+					supplier   	@4
 					vertices   	(list Points
 					    (478, 754)
 					    (274, 617))
 					line_style 	0)))
+			    (object UseCaseView "Use Case View::HeThong::Dang nhap" @14
+				location   	(747, 168)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@14
+				    location   	(747, 306)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	630
+				    justify    	0
+				    label      	"Dang nhap")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"67069334033E"
+				height     	118)
 			    (object AssociationViewNew "$UNNAMED$9" @15
 				location   	(459, 387)
 				font       	(object Font
@@ -498,7 +462,7 @@
 					line_color 	3342489
 					quidu      	"6706933E0254"
 					client     	@15
-					supplier   	@4
+					supplier   	@14
 					vertices   	(list Points
 					    (459, 387)
 					    (645, 242))
@@ -510,7 +474,7 @@
 					line_color 	3342489
 					quidu      	"6706933E0256"
 					client     	@15
-					supplier   	@5
+					supplier   	@4
 					vertices   	(list Points
 					    (459, 387)
 					    (274, 533))
@@ -573,13 +537,13 @@
 				line_color 	3342489
 				quidu      	"6706934F0098"
 				client     	@18
-				supplier   	@4
+				supplier   	@14
 				vertices   	(list Points
 				    (1145, 145)
 				    (855, 159))
 				line_style 	0)
-			    (object UseCaseView "Use Case View::HeThong::CUR don hang" @21
-				location   	(778, 1303)
+			    (object UseCaseView "Use Case View::HeThong::CRUD san pham" @21
+				location   	(1793, 181)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -591,18 +555,42 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@21
-				    location   	(778, 1441)
+				    location   	(1793, 319)
 				    anchor_loc 	1
 				    nlines     	2
 				    max_width  	630
 				    justify    	0
-				    label      	"CUR don hang")
+				    label      	"CRUD san pham")
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
-				quidu      	"670696FF014F"
+				quidu      	"670693B3024A"
 				height     	118)
-			    (object ClassView "Class" "Use Case View::HeThong::Nhan vien" @22
+			    (object UseCaseView "Use Case View::HeThong::Thong ke" @22
+				location   	(1818, 531)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@22
+				    location   	(1818, 669)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	630
+				    justify    	0
+				    label      	"Thong ke")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"670693DD0208"
+				height     	118)
+			    (object ClassView "Class" "Use Case View::HeThong::Nhan vien" @23
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
@@ -617,11 +605,11 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@22
+				    Parent_View 	@23
 				    location   	(211, 1322)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	325
+				    max_width  	351
 				    justify    	0
 				    label      	"Nhan vien")
 				icon       	"Actor"
@@ -630,7 +618,31 @@
 				quidu      	"670696B90061"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$18" @23
+			    (object UseCaseView "Use Case View::HeThong::CUR don hang" @24
+				location   	(778, 1303)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@24
+				    location   	(778, 1441)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	630
+				    justify    	0
+				    label      	"CUR don hang")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"670696FF014F"
+				height     	118)
+			    (object AssociationViewNew "$UNNAMED$18" @25
 				location   	(468, 1223)
 				font       	(object Font
 				    size       	10
@@ -645,78 +657,30 @@
 				line_color 	3342489
 				quidu      	"6706970B002F"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$19" @24
-					Parent_View 	@23
+				    (object RoleView "$UNNAMED$19" @26
+					Parent_View 	@25
 					location   	(-1898, 183)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"6706970B0306"
-					client     	@23
-					supplier   	@21
+					client     	@25
+					supplier   	@24
 					vertices   	(list Points
 					    (468, 1223)
 					    (668, 1273))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$20" @25
-					Parent_View 	@23
+				    (object RoleView "$UNNAMED$20" @27
+					Parent_View 	@25
 					location   	(-1898, 183)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"6706970B0308"
-					client     	@23
-					supplier   	@22
+					client     	@25
+					supplier   	@23
 					vertices   	(list Points
 					    (468, 1223)
 					    (268, 1174))
 					line_style 	0)))
-			    (object UseCaseView "Use Case View::HeThong::CRUD san pham" @26
-				location   	(1793, 181)
-				font       	(object Font
-				    size       	10
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@26
-				    location   	(1793, 319)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	630
-				    justify    	0
-				    label      	"CRUD san pham")
-				icon_style 	"Icon"
-				line_color 	3342489
-				fill_color 	13434879
-				quidu      	"670693B3024A"
-				height     	118)
-			    (object UseCaseView "Use Case View::HeThong::Thong ke" @27
-				location   	(1818, 531)
-				font       	(object Font
-				    size       	10
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@27
-				    location   	(1818, 669)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	630
-				    justify    	0
-				    label      	"Thong ke")
-				icon_style 	"Icon"
-				line_color 	3342489
-				fill_color 	13434879
-				quidu      	"670693DD0208"
-				height     	118)
 			    (object UseCaseView "Use Case View::HeThong::CURD nhan vien" @28
 				location   	(1837, 790)
 				font       	(object Font
@@ -741,31 +705,7 @@
 				fill_color 	13434879
 				quidu      	"67069CBD0266"
 				height     	118)
-			    (object UseCaseView "Use Case View::HeThong::Nhap hang" @29
-				location   	(1808, 1059)
-				font       	(object Font
-				    size       	10
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@29
-				    location   	(1808, 1197)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	630
-				    justify    	0
-				    label      	"Nhap hang")
-				icon_style 	"Icon"
-				line_color 	3342489
-				fill_color 	13434879
-				quidu      	"67069CFC02BF"
-				height     	118)
-			    (object ClassView "Class" "Use Case View::HeThong::Quan tri vien" @30
+			    (object ClassView "Class" "Use Case View::HeThong::Quan tri vien" @29
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
@@ -780,11 +720,11 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@30
+				    Parent_View 	@29
 				    location   	(2470, 607)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	325
+				    max_width  	347
 				    justify    	0
 				    label      	"Quan tri vien")
 				icon       	"Actor"
@@ -793,7 +733,7 @@
 				quidu      	"670693AA02EC"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$12" @31
+			    (object AssociationViewNew "$UNNAMED$12" @30
 				location   	(2156, 321)
 				font       	(object Font
 				    size       	10
@@ -808,31 +748,31 @@
 				line_color 	3342489
 				quidu      	"670693BE03C4"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$13" @32
-					Parent_View 	@31
+				    (object RoleView "$UNNAMED$13" @31
+					Parent_View 	@30
 					location   	(-241, -185)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"670693BF031E"
-					client     	@31
-					supplier   	@26
+					client     	@30
+					supplier   	@21
 					vertices   	(list Points
 					    (2156, 321)
 					    (1901, 221))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$14" @33
-					Parent_View 	@31
+				    (object RoleView "$UNNAMED$14" @32
+					Parent_View 	@30
 					location   	(-241, -185)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"670693BF0320"
-					client     	@31
-					supplier   	@30
+					client     	@30
+					supplier   	@29
 					vertices   	(list Points
 					    (2156, 321)
 					    (2411, 422))
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$15" @34
+			    (object AssociationViewNew "$UNNAMED$15" @33
 				location   	(2167, 482)
 				font       	(object Font
 				    size       	10
@@ -847,31 +787,31 @@
 				line_color 	3342489
 				quidu      	"670693E5000E"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$16" @35
-					Parent_View 	@34
+				    (object RoleView "$UNNAMED$16" @34
+					Parent_View 	@33
 					location   	(-230, -24)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"670693E502A9"
-					client     	@34
-					supplier   	@27
+					client     	@33
+					supplier   	@22
 					vertices   	(list Points
 					    (2167, 482)
 					    (1926, 514))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$17" @36
-					Parent_View 	@34
+				    (object RoleView "$UNNAMED$17" @35
+					Parent_View 	@33
 					location   	(-230, -24)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"670693E502AB"
-					client     	@34
-					supplier   	@30
+					client     	@33
+					supplier   	@29
 					vertices   	(list Points
 					    (2167, 482)
 					    (2409, 451))
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$21" @37
+			    (object AssociationViewNew "$UNNAMED$21" @36
 				location   	(2173, 603)
 				font       	(object Font
 				    size       	10
@@ -886,32 +826,56 @@
 				line_color 	3342489
 				quidu      	"67069CCB0074"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$22" @38
-					Parent_View 	@37
+				    (object RoleView "$UNNAMED$22" @37
+					Parent_View 	@36
 					location   	(-237, 197)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"67069CCB02F8"
-					client     	@37
+					client     	@36
 					supplier   	@28
 					vertices   	(list Points
 					    (2173, 603)
 					    (1936, 732))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$23" @39
-					Parent_View 	@37
+				    (object RoleView "$UNNAMED$23" @38
+					Parent_View 	@36
 					location   	(-237, 197)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"67069CCB02FB"
-					client     	@37
-					supplier   	@30
+					client     	@36
+					supplier   	@29
 					vertices   	(list Points
 					    (2173, 603)
 					    (2410, 475))
 					line_style 	0)))
+			    (object UseCaseView "Use Case View::HeThong::Nhap hang" @39
+				location   	(1808, 1059)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@39
+				    location   	(1808, 1197)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	630
+				    justify    	0
+				    label      	"Nhap hang")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"67069CFC02BF"
+				height     	118)
 			    (object AssociationViewNew "$UNNAMED$24" @40
-				location   	(2124, 763)
+				location   	(2111, 776)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -927,27 +891,27 @@
 				roleview_list 	(list RoleViews
 				    (object RoleView "$UNNAMED$25" @41
 					Parent_View 	@40
-					location   	(-286, 357)
+					location   	(-299, 370)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"67069D3002E5"
 					client     	@40
-					supplier   	@29
+					supplier   	@39
 					vertices   	(list Points
-					    (2124, 763)
+					    (2111, 776)
 					    (1866, 1001))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$26" @42
 					Parent_View 	@40
-					location   	(-286, 357)
+					location   	(-299, 370)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"67069D3002E7"
 					client     	@40
-					supplier   	@30
+					supplier   	@29
 					vertices   	(list Points
-					    (2124, 763)
-					    (2383, 526))
+					    (2111, 776)
+					    (2356, 551))
 					line_style 	0)))))))
 	    (object Class_Category "Nghiep Vu"
 		quid       	"5D9DEB660231"
@@ -1097,7 +1061,13 @@
 				fill_color 	13434879
 				quidu      	"6706903C0224"
 				width      	306)
-			    (object DependencyView "" @47
+			    (object ClassView "Class" "Use Case View::Nghiep Vu::NewClass" @47
+				ShowCompartmentStereotypes 	TRUE
+				SuppressAttribute 	TRUE
+				SuppressOperation 	TRUE
+				IncludeAttribute 	TRUE
+				IncludeOperation 	TRUE
+				location   	(2385, 672)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -1107,8 +1077,59 @@
 				    strike     	FALSE
 				    color      	0
 				    default_color 	TRUE)
-				stereotype 	(object SegLabel @48
+				label      	(object ItemLabel
 				    Parent_View 	@47
+				    location   	(2384, 880)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	573
+				    justify    	0
+				    label      	"NewClass")
+				icon       	"Business Actor"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"67069047039A"
+				width      	202
+				annotation 	8
+				autoResize 	TRUE)
+			    (object UseCaseView "Use Case View::Nghiep Vu::Quan ly kho" @48
+				location   	(1855, 650)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@48
+				    location   	(1854, 825)
+				    anchor_loc 	1
+				    nlines     	2
+				    max_width  	879
+				    justify    	0
+				    label      	"Quan ly kho")
+				icon       	"Business Use Case"
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"670690450319"
+				width      	306)
+			    (object DependencyView "" @49
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				stereotype 	(object SegLabel @50
+				    Parent_View 	@49
 				    location   	(1033, 1048)
 				    font       	(object Font
 					size       	10
@@ -1133,10 +1154,10 @@
 				client     	@43
 				supplier   	@46
 				vertices   	(list Points
-				    (927, 965)
+				    (1096, 886)
 				    (868, 992))
 				line_style 	0)
-			    (object DependencyView "" @49
+			    (object DependencyView "" @51
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -1146,8 +1167,8 @@
 				    strike     	FALSE
 				    color      	0
 				    default_color 	TRUE)
-				stereotype 	(object SegLabel @50
-				    Parent_View 	@49
+				stereotype 	(object SegLabel @52
+				    Parent_View 	@51
 				    location   	(922, 1298)
 				    font       	(object Font
 					size       	10
@@ -1172,66 +1193,9 @@
 				client     	@44
 				supplier   	@46
 				vertices   	(list Points
-				    (1231, 1316)
-				    (718, 1066))
+				    (1079, 1241)
+				    (868, 1138))
 				line_style 	0)
-			    (object UseCaseView "Use Case View::Nghiep Vu::Quan ly kho" @51
-				location   	(1855, 650)
-				font       	(object Font
-				    size       	10
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@51
-				    location   	(1854, 825)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	879
-				    justify    	0
-				    label      	"Quan ly kho")
-				icon       	"Business Use Case"
-				icon_style 	"Icon"
-				line_color 	3342489
-				fill_color 	13434879
-				quidu      	"670690450319"
-				width      	306)
-			    (object ClassView "Class" "Use Case View::Nghiep Vu::NewClass" @52
-				ShowCompartmentStereotypes 	TRUE
-				SuppressAttribute 	TRUE
-				SuppressOperation 	TRUE
-				IncludeAttribute 	TRUE
-				IncludeOperation 	TRUE
-				location   	(2385, 672)
-				font       	(object Font
-				    size       	10
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@52
-				    location   	(2384, 880)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	573
-				    justify    	0
-				    label      	"NewClass")
-				icon       	"Business Actor"
-				icon_style 	"Icon"
-				line_color 	3342489
-				fill_color 	13434879
-				quidu      	"67069047039A"
-				width      	202
-				annotation 	8
-				autoResize 	TRUE)
 			    (object AssociationViewNew "" @53
 				location   	(2145, 659)
 				font       	(object Font
@@ -1254,10 +1218,10 @@
 					line_color 	3342489
 					quidu      	"670690DC02A0"
 					client     	@53
-					supplier   	@51
+					supplier   	@48
 					vertices   	(list Points
 					    (2145, 659)
-					    (2005, 653))
+					    (2005, 654))
 					line_style 	0)
 				    (object RoleView "" @55
 					Parent_View 	@53
@@ -1266,7 +1230,7 @@
 					line_color 	3342489
 					quidu      	"670690DC02A2"
 					client     	@53
-					supplier   	@52
+					supplier   	@47
 					vertices   	(list Points
 					    (2145, 659)
 					    (2285, 665))
@@ -1288,361 +1252,6 @@
 	subsystem  	"Component View"
 	quidu      	"5D9DEB54034A"
 	logical_models 	(list unit_reference_list
-	    (object Class "Category"
-		quid       	"670796240107"
-		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "id"
-			quid       	"670797930378"
-			type       	"Integer")
-		    (object ClassAttribute "name"
-			quid       	"670797B20271"
-			type       	"String")
-		    (object ClassAttribute "link"
-			quid       	"670797D30374"
-			type       	"String")
-		    (object ClassAttribute "level"
-			quid       	"6707983A003C"
-			type       	"Integer")
-		    (object ClassAttribute "parentid"
-			quid       	"6707984B02CA"
-			type       	"Integer")
-		    (object ClassAttribute "oder"
-			quid       	"67079878015E"
-			type       	"String")
-		    (object ClassAttribute "created_at"
-			quid       	"6707988E0165"
-			type       	"Date")
-		    (object ClassAttribute "created_by"
-			quid       	"670798AD0359"
-			type       	"String")
-		    (object ClassAttribute "updated_at"
-			quid       	"670798C20109"
-			type       	"Integer")
-		    (object ClassAttribute "updated_by"
-			quid       	"670798D3002D"
-			type       	"Integer")
-		    (object ClassAttribute "status"
-			quid       	"670798F9017B"
-			type       	"Boolean")
-		    (object ClassAttribute "trash"
-			quid       	"67079987017A"
-			type       	"Boolean")))
-	    (object Class "product"
-		quid       	"6707965B00D1"
-		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "id"
-			quid       	"67079BFE01A1"
-			type       	"Integer")
-		    (object ClassAttribute "catid"
-			quid       	"67079BFF0333"
-			type       	"Integer")
-		    (object ClassAttribute "name"
-			quid       	"67079C0100F9"
-			type       	"String")
-		    (object ClassAttribute "alias"
-			quid       	"67079C0202B1"
-			type       	"String")
-		    (object ClassAttribute "avatar"
-			quid       	"67079C040139"
-			type       	"String")
-		    (object ClassAttribute "img"
-			quid       	"67079C4A0081"
-			type       	"String")
-		    (object ClassAttribute "sortDesc"
-			quid       	"67079C4B0262"
-			type       	"String")
-		    (object ClassAttribute "detail"
-			quid       	"67079BFD0028"
-			type       	"String")
-		    (object ClassAttribute "producer"
-			quid       	"67079C4D0099"
-			type       	"Integer")
-		    (object ClassAttribute "number"
-			quid       	"67079C4E02CA"
-			type       	"Integer")
-		    (object ClassAttribute "number_buy"
-			quid       	"67079C500131"
-			type       	"Integer")
-		    (object ClassAttribute "sale"
-			quid       	"67079C520091"
-			type       	"Integer")
-		    (object ClassAttribute "price"
-			quid       	"67079C53036D"
-			type       	"Integer")
-		    (object ClassAttribute "price_sale"
-			quid       	"67079C580097"
-			type       	"Integer")
-		    (object ClassAttribute "created"
-			quid       	"67079C550204"
-			type       	"Date")
-		    (object ClassAttribute "created_by"
-			quid       	"67079E9202E7"
-			type       	"String")
-		    (object ClassAttribute "modified"
-			quid       	"67079E6F026E"
-			type       	"Date")
-		    (object ClassAttribute "modified_by"
-			quid       	"67079EB502D9"
-			type       	"Integer")
-		    (object ClassAttribute "status"
-			quid       	"67079EB502F8"
-			type       	"Integer")
-		    (object ClassAttribute "trash"
-			quid       	"67079EB50318"
-			type       	"Integer")))
-	    (object Class "order"
-		quid       	"6707966E01CF"
-		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "id"
-			quid       	"67079EE4029E"
-			type       	"Integer")
-		    (object ClassAttribute "oderCode"
-			quid       	"67079EE601E5"
-			type       	"String")
-		    (object ClassAttribute "custimerid"
-			quid       	"67079F360125"
-			type       	"Integer")
-		    (object ClassAttribute "oderdate"
-			quid       	"67079F6C0104"
-			type       	"Date")
-		    (object ClassAttribute "fullname"
-			quid       	"67079F7F0182"
-			type       	"String")
-		    (object ClassAttribute "phone"
-			quid       	"6707A0410381"
-			type       	"String")
-		    (object ClassAttribute "money"
-			quid       	"67079F9D036E"
-			type       	"Integer")
-		    (object ClassAttribute "price_ship"
-			quid       	"67079FC201D1"
-			type       	"Integer")
-		    (object ClassAttribute "coupon"
-			quid       	"67079FD900A2"
-			type       	"Integer")
-		    (object ClassAttribute "province"
-			quid       	"67079FAE037D"
-			type       	"Integer")
-		    (object ClassAttribute "district"
-			quid       	"67079FD502DA"
-			type       	"Integer")
-		    (object ClassAttribute "address"
-			quid       	"6707A00F02F1"
-			type       	"String")
-		    (object ClassAttribute "trash"
-			quid       	"67079F360158"
-			type       	"Integer")
-		    (object ClassAttribute "status"
-			quid       	"67079F360140"
-			type       	"Integer")))
-	    (object Class "orderdetail"
-		quid       	"670796810237"
-		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "id"
-			quid       	"6707A0A902E4"
-			type       	"Integer")
-		    (object ClassAttribute "orderid"
-			quid       	"6707A0BA03BD"
-			type       	"Integer")
-		    (object ClassAttribute "productid"
-			quid       	"6707A0D800D0"
-			type       	"Integer")
-		    (object ClassAttribute "count"
-			quid       	"6707A0EA035C"
-			type       	"Integer")
-		    (object ClassAttribute "price"
-			quid       	"6707A0F90054"
-			type       	"Integer")
-		    (object ClassAttribute "trash"
-			quid       	"6707A09F0156"
-			type       	"Integer")
-		    (object ClassAttribute "status"
-			quid       	"6707A09F016B"
-			type       	"Integer")))
-	    (object Class "province"
-		quid       	"6707968801E1"
-		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "id"
-			quid       	"6707A1A3003F"
-			type       	"Integer")
-		    (object ClassAttribute "name"
-			quid       	"6707A1AC0032"
-			type       	"String")
-		    (object ClassAttribute "type"
-			quid       	"6707A1B70161"
-			type       	"Single")))
-	    (object Class "district"
-		quid       	"6707969C0297"
-		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "id"
-			quid       	"6707A1EA0116"
-			type       	"Integer")
-		    (object ClassAttribute "name"
-			quid       	"6707A1EA012C"
-			type       	"String")
-		    (object ClassAttribute "type"
-			quid       	"6707A1EA0142"
-			type       	"Single")
-		    (object ClassAttribute "provinceid"
-			quid       	"6707A1ED02D4"
-			type       	"Integer")))
-	    (object Class "customer"
-		quid       	"670796C203B5"
-		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "id"
-			quid       	"6707A1430296"
-			type       	"Integer")
-		    (object ClassAttribute "fullname"
-			quid       	"6707A14302AD"
-			type       	"String")
-		    (object ClassAttribute "username"
-			quid       	"6707A14802EA"
-			type       	"String")
-		    (object ClassAttribute "password"
-			quid       	"6707A15C0115"
-			type       	"String")
-		    (object ClassAttribute "phone"
-			quid       	"6707A14302C3"
-			type       	"String")
-		    (object ClassAttribute "email"
-			quid       	"6707A171002C"
-			type       	"String")
-		    (object ClassAttribute "address"
-			quid       	"6707A14302DC"
-			type       	"String")
-		    (object ClassAttribute "created"
-			quid       	"6707A187039D"
-			type       	"customer"
-			quidu      	"670796C203B5")
-		    (object ClassAttribute "trash"
-			quid       	"6707A14302F4"
-			type       	"Integer")
-		    (object ClassAttribute "status"
-			quid       	"6707A143030F"
-			type       	"Integer")))
-	    (object Class "producer"
-		quid       	"670796D800D1"
-		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "id"
-			quid       	"670799DD035E"
-			type       	"Integer")
-		    (object ClassAttribute "name"
-			quid       	"670799DF02F0"
-			type       	"String")
-		    (object ClassAttribute "code"
-			quid       	"670799E10088"
-			type       	"String")
-		    (object ClassAttribute "keyword"
-			quid       	"670799E202E1"
-			type       	"String")
-		    (object ClassAttribute "create_at"
-			quid       	"670799E401CC"
-			type       	"Date")
-		    (object ClassAttribute "created_by"
-			quid       	"670799E60322"
-			type       	"Integer")
-		    (object ClassAttribute "modified"
-			quid       	"670799E90101"
-			type       	"Date")
-		    (object ClassAttribute "modified_by"
-			quid       	"670799EA03C7"
-			type       	"Integer")
-		    (object ClassAttribute "status"
-			quid       	"670799EC02CC"
-			type       	"Integer")
-		    (object ClassAttribute "trash"
-			quid       	"670799EE0187"
-			type       	"Integer")))
-	    (object Class "config"
-		quid       	"6707A20B03E1"
-		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "id"
-			quid       	"6707A21C035F"
-			type       	"Integer")
-		    (object ClassAttribute "mail_smtp"
-			quid       	"6707A22602E3"
-			type       	"String")
-		    (object ClassAttribute "mail_smtp_password"
-			quid       	"6707A2330362"
-			type       	"Single")
-		    (object ClassAttribute "mail_noreply"
-			quid       	"6707A25301A5"
-			type       	"String")
-		    (object ClassAttribute "title"
-			quid       	"6707A269002E"
-			type       	"String")
-		    (object ClassAttribute "description"
-			quid       	"6707A27501C8"
-			type       	"String")))
-	    (object Class "contact"
-		quid       	"6707A2A700AB"
-		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "id"
-			quid       	"6707A2E7026D"
-			type       	"Integer")
-		    (object ClassAttribute "title"
-			quid       	"6707A2E702E5"
-			type       	"String")
-		    (object ClassAttribute "phone"
-			quid       	"6707A2E7029A"
-			type       	"String")
-		    (object ClassAttribute "email"
-			quid       	"6707A3070175"
-			type       	"String")
-		    (object ClassAttribute "content"
-			quid       	"6707A336036C"
-			type       	"String")
-		    (object ClassAttribute "created_at"
-			quid       	"6707A34C029C"
-			type       	"String")
-		    (object ClassAttribute "status"
-			quid       	"6707A37500C3"
-			type       	"Integer")
-		    (object ClassAttribute "trash"
-			quid       	"6707A37500DB"
-			type       	"Integer")
-		    (object ClassAttribute "fullname"
-			quid       	"6707A2E70282"
-			type       	"String")))
-	    (object Class "content"
-		quid       	"6707A38600DC"
-		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "id"
-			quid       	"6707A3BE002C"
-			type       	"Integer")
-		    (object ClassAttribute "title"
-			quid       	"6707A3C502FE"
-			type       	"String")
-		    (object ClassAttribute "alias"
-			quid       	"6707A3BE0042"
-			type       	"String")
-		    (object ClassAttribute "introtext"
-			quid       	"6707A3D302AF"
-			type       	"String")
-		    (object ClassAttribute "fulltext"
-			quid       	"6707A3E5039E"
-			type       	"String")
-		    (object ClassAttribute "img"
-			quid       	"6707A3BE0057"
-			type       	"String")
-		    (object ClassAttribute "created"
-			quid       	"6707A3BE0071"
-			type       	"Date")
-		    (object ClassAttribute "created_by"
-			quid       	"6707A3BE0088"
-			type       	"String")
-		    (object ClassAttribute "modified"
-			quid       	"6707A3BE00A3"
-			type       	"Date")
-		    (object ClassAttribute "modified_by"
-			quid       	"6707A3BE00BF"
-			type       	"Integer")
-		    (object ClassAttribute "status"
-			quid       	"6707A3BE00DA"
-			type       	"Integer")
-		    (object ClassAttribute "trash"
-			quid       	"6707A3BE00F8"
-			type       	"Integer")))
 	    (object Association "$UNNAMED$27"
 		quid       	"670690DC00B2"
 		roles      	(list role_list
@@ -1659,543 +1268,6 @@
 	    (object ClassDiagram "Main"
 		quid       	"5D9DEB56005F"
 		title      	"Main"
-		zoom       	100
-		max_height 	28350
-		max_width  	21600
-		origin_x   	1514
-		origin_y   	707
-		items      	(list diagram_item_list
-		    (object ClassView "Class" "Logical View::Category" @56
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(347, 368)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@56
-			    location   	(144, 12)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	406
-			    justify    	0
-			    label      	"Category")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"670796240107"
-			compartment 	(object Compartment
-			    Parent_View 	@56
-			    location   	(144, 73)
-			    font       	(object Font
-				size       	10
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	13
-			    max_width  	403
-			    justify    	1)
-			width      	424
-			height     	736
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::product" @57
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(996, 644)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@57
-			    location   	(787, 88)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	418
-			    justify    	0
-			    label      	"product")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"6707965B00D1"
-			compartment 	(object Compartment
-			    Parent_View 	@57
-			    location   	(787, 149)
-			    font       	(object Font
-				size       	10
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	21
-			    max_width  	440
-			    justify    	1)
-			width      	436
-			height     	1136
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::order" @58
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(1403, 572)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@58
-			    location   	(1209, 166)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	388
-			    justify    	0
-			    label      	"order")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"6707966E01CF"
-			compartment 	(object Compartment
-			    Parent_View 	@58
-			    location   	(1209, 227)
-			    font       	(object Font
-				size       	10
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	15
-			    max_width  	406
-			    justify    	1)
-			width      	406
-			height     	836
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::orderdetail" @59
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(1932, 700)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@59
-			    location   	(1750, 469)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	364
-			    justify    	0
-			    label      	"orderdetail")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"670796810237"
-			compartment 	(object Compartment
-			    Parent_View 	@59
-			    location   	(1750, 530)
-			    font       	(object Font
-				size       	10
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	8
-			    max_width  	363
-			    justify    	1)
-			width      	382
-			height     	486
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::province" @60
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(2536, 459)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@60
-			    location   	(2391, 328)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	290
-			    justify    	0
-			    label      	"province")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"6707968801E1"
-			compartment 	(object Compartment
-			    Parent_View 	@60
-			    location   	(2391, 389)
-			    font       	(object Font
-				size       	10
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	4
-			    max_width  	303
-			    justify    	1)
-			width      	308
-			height     	286
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::district" @61
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(2508, 740)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@61
-			    location   	(2319, 584)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	378
-			    justify    	0
-			    label      	"district")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"6707969C0297"
-			compartment 	(object Compartment
-			    Parent_View 	@61
-			    location   	(2319, 645)
-			    font       	(object Font
-				size       	10
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	5
-			    max_width  	375
-			    justify    	1)
-			width      	396
-			height     	336
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::customer" @62
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(1581, 1072)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@62
-			    location   	(1391, 766)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	380
-			    justify    	0
-			    label      	"customer")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"670796C203B5"
-			compartment 	(object Compartment
-			    Parent_View 	@62
-			    location   	(1391, 827)
-			    font       	(object Font
-				size       	10
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	11
-			    max_width  	400
-			    justify    	1)
-			width      	398
-			height     	636
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::producer" @63
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(343, 1062)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@63
-			    location   	(136, 756)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	414
-			    justify    	0
-			    label      	"producer")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"670796D800D1"
-			compartment 	(object Compartment
-			    Parent_View 	@63
-			    location   	(136, 817)
-			    font       	(object Font
-				size       	10
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	11
-			    max_width  	434
-			    justify    	1)
-			width      	432
-			height     	636
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::config" @64
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(2251, 1184)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@64
-			    location   	(1967, 978)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	568
-			    justify    	0
-			    label      	"config")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"6707A20B03E1"
-			compartment 	(object Compartment
-			    Parent_View 	@64
-			    location   	(1967, 1039)
-			    font       	(object Font
-				size       	10
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	7
-			    max_width  	566
-			    justify    	1)
-			width      	586
-			height     	436
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::contact" @65
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(509, 1650)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@65
-			    location   	(321, 1369)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	376
-			    justify    	0
-			    label      	"contact")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"6707A2A700AB"
-			compartment 	(object Compartment
-			    Parent_View 	@65
-			    location   	(321, 1430)
-			    font       	(object Font
-				size       	10
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	10
-			    max_width  	372
-			    justify    	1)
-			width      	394
-			height     	586
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::content" @66
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(953, 1603)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@66
-			    location   	(746, 1247)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	414
-			    justify    	0
-			    label      	"content")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"6707A38600DC"
-			compartment 	(object Compartment
-			    Parent_View 	@66
-			    location   	(746, 1308)
-			    font       	(object Font
-				size       	10
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	13
-			    max_width  	410
-			    justify    	1)
-			width      	432
-			height     	736
-			annotation 	8
-			autoResize 	TRUE)))
-	    (object UseCaseDiagram "NewDiagram"
-		quid       	"670795F300E7"
-		title      	"NewDiagram"
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
